@@ -1,0 +1,173 @@
+/* цвет основгого текста  #212121 */
+/* цвет вторичного текста  #757575 */
+/* белий  #FFFFFF */
+/* акцент   #2196F3 */
+:root{
+    --primary-text-color:#757575;
+    --titel-text-color:#212121;
+    --accent-color:#2196F3;
+    --primari-white-color:#FFFFFF;
+}
+
+body{
+    background-color:var(--primari-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.logo{
+    color: #000000;
+    font-family: Raleway,cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    text-decoration: none;
+    
+}
+.logo-web{
+    color: var(--accent-color);
+}
+.list{
+    list-style: none;
+}
+
+/* site-nave */
+.site-nave .link{
+    color: var(--titel-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.site-nave .link:hover,
+.site-nave .link:focus{
+    color: var(--accent-color);
+}
+/* contact */
+.contact .link{
+    color: var(--titel-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.contact .link:hover,
+.contact .link:focus{
+    color: var(--accent-color);
+}
+.link.current{
+    color: var(--accent-color);
+}
+.link.current:hover,
+.link.current:focus{
+     color: var(--titel-text-color)
+}
+
+/* hero */
+.hero{
+    background-color: #2F303A;
+   
+}
+.hero-titel{
+    color:var(--primari-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/* section */
+.section-titel {
+    color: var(--titel-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/* feature */
+.feature-list .titel{
+    color: var(--titel-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.feature-list .text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* button */
+.button{
+    color: var(--titel-text-color);
+    /* width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px; */
+    cursor: pointer;
+    
+}
+
+.button.primary{
+    color: var(--primari-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+}
+/* filter */
+.filter .switch{
+    color: var(--titel-text-color);
+}
+.filter .switch:hover,
+.filter .switch:focus{
+    color: var(--primari-white-color);
+    background-color: var(--accent-color);
+}
+.switch.current{
+    color: var(--primari-white-color);
+    background-color: var(--accent-color);
+}
+.switch.current:hover,
+.switch.current:focus{
+     color: var(--titel-text-color)
+}
+
+/* comand */
+.comand .titel{
+    color: var(--titel-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+}
+/* work */
+.work .titel{
+    color: var(--titel-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+/* podval */
+.podval{
+    background-color: #2F303A; 
+}
+.adres{
+    color: var(--primari-white-color);
+    font-style: normal;
+    text-decoration: none;
+}
+.info{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    text-decoration: none;
+}
