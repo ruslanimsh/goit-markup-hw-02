@@ -1,7 +1,7 @@
-/* цвет основгого текста  #212121 */
-/* цвет вторичного текста  #757575 */
-/* белий  #FFFFFF */
-/* акцент   #2196F3 */
+/* titel-text-color  #212121 */
+/* primary-text-color  #757575 */
+/* primari-white-color #FFFFFF */
+/* accent-color   #2196F3 */
 :root{
     --primary-text-color:#757575;
     --titel-text-color:#212121;
@@ -17,6 +17,7 @@ body{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    
 }
 
 .logo{
@@ -107,10 +108,6 @@ body{
 /* button */
 .button{
     color: var(--titel-text-color);
-    /* width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px; */
     cursor: pointer;
     
 }
@@ -157,7 +154,7 @@ body{
     line-height: 2;
     letter-spacing: 0.06em;
 }
-/* podval */
+/* footer */
 .podval{
     background-color: #2F303A; 
 }
