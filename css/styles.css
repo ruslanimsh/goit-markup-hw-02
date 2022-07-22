@@ -60,13 +60,13 @@ body{
 .contact .contact-link:focus{
     color: var(--accent-color);
 }
-/* .link.current{
+.link.current{
     color: var(--accent-color);
 }
 .link.current:hover,
 .link.current:focus{
      color: var(--titel-text-color)
-} */
+}
 
 /* hero */
 .hero{
