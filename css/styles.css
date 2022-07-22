@@ -48,6 +48,13 @@ body{
 .site-nave .link:focus{
     color: var(--accent-color);
 }
+.link.current{
+    color: var(--accent-color);
+}
+.link.current:hover,
+.link.current:focus{
+     color: var(--titel-text-color);
+}
 /* contact */
 .contact .contact-link{
     color: var(--primary-text-color);
@@ -60,13 +67,7 @@ body{
 .contact .contact-link:focus{
     color: var(--accent-color);
 }
-.link.current{
-    color: var(--accent-color);
-}
-.link.current:hover,
-.link.current:focus{
-     color: var(--titel-text-color);
-}
+
 
 /* hero */
 .hero{
