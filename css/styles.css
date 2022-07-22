@@ -65,7 +65,7 @@ body{
 }
 .link.current:hover,
 .link.current:focus{
-     color: var(--titel-text-color)
+     color: var(--titel-text-color);
 }
 
 /* hero */
